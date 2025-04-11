@@ -1,0 +1,27 @@
+.popMsg{
+    position: fixed;
+    top: 20px;
+    right: -350px;
+    padding: .61rem;
+    border-radius: 7px;
+    box-shadow: 0 2px 10px rgba(128, 128, 128, 0.39);
+    font-size: 1.03rem;
+}
+
+.warning{
+    background-color: rgb(255, 228, 177);
+    color: orangered;
+    border-left: 5px solid orangered;
+}
+
+.success{
+    background-color: rgb(212, 255, 199);
+    color: green;
+    border-left: 5px solid green;
+}
+
+.error{
+    background-color: rgb(255, 191, 191);
+    color: red;
+    border-left: 5px solid red;
+}
