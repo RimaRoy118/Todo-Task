@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #0866ff;
+  display: inline-block;
+  animation: bounce 1s infinite alternate;
+}
+
+p {
+  font-size: 1.2rem;
+  color: rgb(105, 105, 105);
+  margin-top: .7rem;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.backbtn{
+    background-color: rgb(182, 46, 46);
+    color: #fff;
+    padding: .45rem 1rem;
+    border: 1px solid rgb(182, 46, 46);
+    border-radius: 5px;
+    font-size: .91rem;
+    cursor: pointer;
+    transition: .3s;  
+    margin-top: 1.5rem;  
+}
+
+.backbtn:hover{
+    background-color: rgb(158, 41, 41);
+    border-color: rgb(158, 41, 41);
+}
+
+.text{
+    margin-top: 0;
+}
